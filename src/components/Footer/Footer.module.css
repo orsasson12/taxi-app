@@ -1,0 +1,39 @@
+.footer{
+     background-color: #101522;
+     padding:40px 0;
+}
+
+.footer .list{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer .list .listItem{
+display: inline-block;
+padding: 0 15px;
+}
+
+.footer .list .link{
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+  
+}
+
+.footer .list .link:hover{
+    color:#01bf71;
+    transition:0.3s ease-out;
+    cursor: pointer;
+}
+
+.footer .copyright{
+    color: #fff;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+}
