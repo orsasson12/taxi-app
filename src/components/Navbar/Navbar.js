@@ -25,7 +25,7 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to="/" onClick={toggleHome}>Shay & Ron 🚕</NavLogo>
+                    <NavLogo to="/" onClick={toggleHome}>Ron & Shay 🚕</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
@@ -47,7 +47,7 @@ const Navbar = ({ toggle }) => {
                                 spy={true}
                                 exact='true'
                                 offset={-80}
-                            >Discover</NavLinks>
+                            >Customers</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="services"
@@ -58,6 +58,7 @@ const Navbar = ({ toggle }) => {
                                 offset={-80}
                             >Services</NavLinks>
                         </NavItem>
+                        
                     </NavMenu>
                 </NavbarContainer>
             </Nav>

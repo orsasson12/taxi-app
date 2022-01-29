@@ -3,6 +3,7 @@ import { Link as LinkS } from 'react-scroll'
 import classes from './Footer.module.css'
 function Footer() {
     return (
+        
         <footer className={classes.footer}>
             <ul className={classes.list}>
                 <li className={classes.listItem}>
@@ -22,7 +23,7 @@ function Footer() {
                         spy={true}
                         exact='true'
                         offset={-80}
-                    >Discover</LinkS>
+                    >Customers</LinkS>
                 </li>
                 <li className={classes.listItem}>
                     <LinkS className={classes.link} to="services"

@@ -14,7 +14,7 @@ import {
     TextLink
 } from './InfoSectionElements'
 const InfoSection = ({ linktext, lightText, id, lightBg, imgStart, topLine, headLine, darkText, description, img, alt }) => {
-    console.log(linktext);
+    
     return (
         <main>
             <InfoContainer lightBg={lightBg} id={id}>

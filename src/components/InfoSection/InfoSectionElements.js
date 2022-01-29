@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const InfoContainer = styled.div`
 color:#fff;
-background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
+background: ${({ lightBg }) => (lightBg ? '#fff' : '#010606')};
 @media screen and (max-width:768px){
     padding: 100px 0;
 }
@@ -75,6 +75,7 @@ color:${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
 
 @media screen and (max-width:1064px) {
   line-height: 50px;
+  text-align:center;
 }
 `
 
@@ -82,9 +83,16 @@ color:${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
 export const Subtitle = styled.p`
 max-width:440px;
 margin-bottom:35px;
-font-size:18px;
+font-size:24px;
 line-height:24px;
-color:${({ darkText }) => (darkText ? '#010606' : '#fff')}
+font-style:italic;
+text-align:left;
+color:${({ darkText }) => (darkText ? '#010606' : '#fff')};
+
+@media screen and (max-width:1064px) {
+  line-height: 24px;
+  text-align:center;
+}
 `
 
 export const BtnWrap = styled.div`
@@ -102,6 +110,7 @@ export const Img = styled.img`
 width:100%;
 margin:0 0 10px 0;
 padding-right:0;
+
 `
 
 export const TextLink = styled(Link)`

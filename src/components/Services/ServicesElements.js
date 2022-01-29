@@ -43,7 +43,7 @@ flex-direction: column;
 justify-content:flex-start;
 align-items: center;
 border-radius: 10px;
-max-height: 340px;
+max-height: 370px;
 padding: 30px;
 box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 transition: all 0.2s ease-in-out;
@@ -56,7 +56,7 @@ transition: all 0.2s ease-in-out;
 `
 
 export const ServicesIcon = styled.img`
-height:160px;
+height:179px;
 width:160px;
 margin-bottom:10px
 `
@@ -77,5 +77,5 @@ margin-bottom:10px
 
 export const ServicesP = styled.p`
 font-size:1rem;
-text-aling:center;
+text-align:center;
 `

@@ -1,15 +1,14 @@
-import img1 from '../../assets/images/undraw_about_me_re_82bv.svg'
+import img1 from '../../assets/images/undraw_about_us_page_re_2jfm.svg'
 import img2 from '../../assets/images/undraw_treasure_of-9-i.svg'
-
-const arrImg = [img1, img2]
+import img3 from '../../assets/images/56260-customer-service.gif'
+const arrImg = [img1, img2,img3]
 export const homeObjOne = {
     id: 'about',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'See Our Works',
-    headLine: 'Working All Around The Country',
-    description: `We work all over the country and do different projects`,
+    headLine: 'Professional driver team',
+    description: `הצוות שלנו המונה כ 80 נהגים שותף לסטנדרטים יוצאי דופן של השירות, כל אחד מהנהגים נבחר בקפידה ועליו לעבור הכשרות קפדניות שלנו הכוללות קישורי נהיגה, ניווט, עמידה בזמנים ושירות לקוחות כדי להבטיח לנוסעים נסיעה נוחה ובטוחה.`,
     imgStart: false,
     img: arrImg[0],
     alt: 'TeamWork',
@@ -24,11 +23,25 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Our Collbas',
-    headLine: 'Companies',
-    description: 'we have a lot of companies we are working with like shatit luftansa pathal',
+    headLine: 'Satisfied customers',
+    description: `
+    בין הלקוחות המרוצים :
+•	רוקדים עם כוכבים 
+•	הפלמ"ח 
+•	פאודה
+•	טהרן
+•	הזמר במסכה 
+•	מאסטר שף
+•	חתונה ממבט ראשון
+•	סקאי
+•	תמונת הניצחון 
+•	שנות ה 80
+•	שנות ה90 
+•	קוקה בע"מ 
+•	השוטרים
+•	מיס יוניברס`,
     imgStart: true,
-    img: arrImg[1],
+    img: arrImg[2],
     alt: 'collab',
     dark: false,
     primary: false,
