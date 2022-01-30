@@ -1,0 +1,19 @@
+lottie-player{
+    height: 20%;
+}
+span{
+  display: inline-block;
+}
+.span{
+   padding-bottom: 50px;
+}
+
+@media  (min-width:375px) and (max-width:999px) {
+ lottie-player{
+     height: 160px;
+ }
+ span{
+     display: inline;
+ }
+ 
+}
