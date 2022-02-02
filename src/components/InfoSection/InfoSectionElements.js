@@ -84,13 +84,12 @@ export const Subtitle = styled.p`
 max-width:440px;
 margin-bottom:35px;
 font-size:24px;
-line-height:24px;
+line-height:54px;
 font-style:italic;
 text-align:left;
 color:${({ darkText }) => (darkText ? '#010606' : '#fff')};
 
 @media screen and (max-width:1064px) {
-  line-height: 24px;
   text-align:center;
 }
 `
