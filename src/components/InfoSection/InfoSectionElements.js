@@ -71,11 +71,15 @@ margin-bottom: 24px;
 font-size: 48px;
 font-weight: 700;
 margin-top:25px;
+text-align:right;
+width:80%;
+font-style:italic;
 color:${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
 
 @media screen and (max-width:1064px) {
   line-height: 50px;
   text-align:center;
+  width:100%;
 }
 `
 
@@ -86,7 +90,7 @@ margin-bottom:35px;
 font-size:24px;
 line-height:54px;
 font-style:italic;
-text-align:left;
+text-align:center;
 color:${({ darkText }) => (darkText ? '#010606' : '#fff')};
 
 @media screen and (max-width:1064px) {

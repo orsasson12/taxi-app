@@ -25,7 +25,7 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to="/" onClick={toggleHome}>Ron & Shay 🚕</NavLogo>
+                    <NavLogo to="/" onClick={toggleHome}>Ron Shay Productions 🚕</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>

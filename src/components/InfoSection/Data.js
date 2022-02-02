@@ -7,7 +7,7 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    headLine: 'Professional driver team',
+    headLine: 'צוות הנהגים שלנו',
     description: `הצוות שלנו המונה כ 80 נהגים שותף לסטנדרטים יוצאי דופן של השירות, כל אחד מהנהגים נבחר בקפידה ועליו לעבור הכשרות קפדניות שלנו הכוללות קישורי נהיגה, ניווט, עמידה בזמנים ושירות לקוחות כדי להבטיח לנוסעים נסיעה נוחה ובטוחה.`,
     imgStart: false,
     img: arrImg[0],
@@ -23,7 +23,7 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    headLine: 'Satisfied customers',
+    headLine: 'תשאלו את הכוכבים שירות מהסרטים',
     description: `
     בין הלקוחות המרוצים :
 •	רוקדים עם כוכבים 

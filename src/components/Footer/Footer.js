@@ -1,96 +1,84 @@
-import React from 'react'
+import React from "react";
+import {
+    Box,
+    Container,
+    Row,
+    Column,
+    FooterLink,
+    Heading,
+    FooterTitle    
+
+} from "./FooterElements";
 import { Link as LinkS } from 'react-scroll'
-import classes from './Footer.module.css'
 import { FaFacebook, FaInstagram, FaMapMarkerAlt, FaPhoneAlt, FaMailBulk } from 'react-icons/fa'
-function Footer() {
-
+const Footer = () => {
     return (
-        <footer>
-            <div className={classes.container}>
-                <div className={classes.leftSide}>
-                    <p>
-                        אז רוצים גם אתם לנסוע איתנו בסטייל?
-                        תנסו, מקסימום תרוויחו .</p>
-                </div>
-                <div className={classes.center}>
-                    <h2>Quick Links</h2>
+        <Box>
+            <FooterTitle>
+                .אז רוצים גם אתם לנסוע איתנו בסטייל?
+                תנסו, מקסימום תרוויחו
+            </FooterTitle>
+            <Container>
+                <Row>
+                    <Column>
+                        <Heading>Quick Links</Heading>
+                        <FooterLink > <LinkS to="about"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80}
 
-                    <ul >
-                        <li >
-                            <LinkS to="about"
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                offset={-80}
+                        >About</LinkS></FooterLink>
+                        <FooterLink > <LinkS to="discover"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80}
+                        >Customers</LinkS></FooterLink>
+                        <FooterLink > <LinkS to="services"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80}
+                        >Services</LinkS></FooterLink>
+                    </Column>
+                    {/* <Column>
+                        <Heading>Services</Heading>
+                        <FooterLink href="#">Writing</FooterLink>
+                        <FooterLink href="#">Internships</FooterLink>
+                        <FooterLink href="#">Coding</FooterLink>
+                        <FooterLink href="#">Teaching</FooterLink>
+                    </Column> */}
+                    <Column>
+                        <Heading>Contact Us</Heading>
+                        <FooterLink href="#" > <FaMapMarkerAlt style={{ marginRight: '5px' }} />
+                            <span>ראשון לציון</span></FooterLink>
+                        <FooterLink href="tel:0524673370"> <FaPhoneAlt style={{ marginRight: '5px' }} />
+                            <span> 0524673370</span></FooterLink>
+                        <FooterLink href="mailto:orsasson72@gmail.com"> <FaMailBulk style={{ marginRight: '5px' }} />
+                            <span> taxi@gmail.com</span></FooterLink>
 
-                            >About</LinkS>
-                        </li>
-                        <li>
-                            <LinkS to="discover"
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                offset={-80}
-                            >Customers</LinkS>
-                        </li>
-                        <li>
-                            <LinkS to="services"
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                offset={-80}
-                            >Services</LinkS>
-                        </li>
-                        
-                        <div className={classes.social}>
-                        <li >
-                            <a href='https://www.facebook.com/'><FaFacebook /></a>
-                        </li>
-                        <li>
-                            <a href='https://www.facebook.com/'><FaInstagram/></a>
-                        </li>
-                        </div>
-                    </ul>
-                </div>
-                <div className={classes.rightSide}>
-                    <h2>Contact Us</h2>
-                <ul>
-                    <li>
-                    <FaMapMarkerAlt style={{marginRight:'5px'}}/> 
-                            <span>ראשון לציון</span>
-                    
-                    </li>
-                    <li>
-                            <FaPhoneAlt style={{ marginRight: '5px' }}/> 
-                            <span> 0524673370</span>
-                           
-                    </li>
+                    </Column>
+                    <Column>
+                        <Heading>Social Media</Heading>
+                        <FooterLink href='https://www.facebook.com/'>
 
-                    <li>
-                            <FaMailBulk style={{ marginRight: '5px' }}/>
-                            <span> taxi@gmail.com</span>
-                            
-                    </li>
-                </ul>
-                </div>
-            </div>
-            <p style={{textAlign:'center', fontSize:'15px'}}>Copyright &copy; {new Date().getFullYear()} Ron & Shay</p>
-        </footer>
+                             <FaFacebook /> Facebook
 
+                        </FooterLink>
+                        <FooterLink href='https://www.facebook.com/'>
 
+                            <FaInstagram /> Instegram
 
-
-
-
-
-
-
-
-
-    )
-}
-
-export default Footer
+                        </FooterLink>
+                    </Column>
+                </Row>
+            </Container>
+            <p style={{ paddingTop:'10px',color:'#fff',textAlign: 'center', fontSize: '20px' }}>Copyright &copy; {new Date().getFullYear()} רון שי הפקות</p>
+        </Box>
+    );
+};
+export default Footer;
