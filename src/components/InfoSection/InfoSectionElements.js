@@ -53,6 +53,11 @@ export const TextWrapper = styled.div`
 max-width: 540px;
 padding-top: 0;
 padding-bottom: 60px;
+@media screen and (min-width:1064px) {
+  margin:0 2.2rem;
+  text-align:center;
+ 
+}
 `
 
 export const TopLine = styled.p`
@@ -72,7 +77,7 @@ font-size: 48px;
 font-weight: 700;
 margin-top:25px;
 text-align:right;
-width:80%;
+width:90%;
 font-style:italic;
 color:${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
 

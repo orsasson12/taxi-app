@@ -28,6 +28,7 @@ export const NavbarContainer = styled.div`
     width:100%;
     padding:0 24px;
     max-width:1100px;
+    flex-direction:row-reverse;
 `
 
 export const NavLogo = styled(LinkR)`
@@ -53,8 +54,8 @@ display:none;
     color:white;
   display: block;
  position: absolute;
-  top: 0;
-  right: 0;
+  top: -10px;
+  left:50px;
   transform: translate(-100% , 60%);
   font-size: 1.8rem;
   cursor: pointer;

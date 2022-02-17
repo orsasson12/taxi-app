@@ -10,7 +10,7 @@ const Header = () => {
             <HedaerContent>
                 <HeaderH1>The Best Way To Move In The City </HeaderH1>
                 <HeaderP>
-                   Ron & Shay Productions
+                   RonShay Productions
                 </HeaderP>
             </HedaerContent>
         </HeaderContainer>

@@ -8,14 +8,14 @@ const SideBar = ({ toggle, isOpen }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink onClick={toggle} to="about">
-                        About
+                    <SidebarLink style={{marginBottom:'3rem'}} onClick={toggle} to="about">
+                       עלינו
                     </SidebarLink>
-                    <SidebarLink onClick={toggle} to="services">
-                        Services
+                    <SidebarLink  onClick={toggle} to="services">
+                        לקוחות מרוצים
                     </SidebarLink>
-                    <SidebarLink onClick={toggle} to="discover">
-                        Discover
+                    <SidebarLink style={{ marginTop: '4rem' }} onClick={toggle} to="discover">
+                        שירותים
                     </SidebarLink>
                 </SidebarMenu>
             </SidebarWrapper>

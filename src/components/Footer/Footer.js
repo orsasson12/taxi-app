@@ -71,7 +71,7 @@ const Footer = () => {
                         </FooterLink>
                         <FooterLink href='https://www.facebook.com/'>
 
-                            <FaInstagram /> Instegram
+                            <FaInstagram /> Instagram
 
                         </FooterLink>
                     </Column>

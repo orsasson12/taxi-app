@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { FaBars } from 'react-icons/fa'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks } from './NavbarElements'
 import { animateScroll as scroll } from 'react-scroll'
+import logo from '../../assets/images/logo.jpeg'
 const Navbar = ({ toggle }) => {
 
     const [scrollNav, setScrollNav] = useState(false)
@@ -25,20 +26,20 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to="/" onClick={toggleHome}>Ron Shay Productions 🚕</NavLogo>
+                    <NavLogo to="/" onClick={toggleHome}>{<img src={logo} alt='logo' style={{width:'2rem', borderRaduis:'6px', height:'2.5rem', marginRight:'1rem'}}/>}  רון שי </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="about"
+                            <NavLinks to="services"
                                 smooth={true}
                                 duration={500}
                                 spy={true}
                                 exact='true'
                                 offset={-80}
-
-                            >About</NavLinks>
+                            >שירותים</NavLinks>
+                            
                         </NavItem>
                         <NavItem>
                             <NavLinks to="discover"
@@ -47,18 +48,19 @@ const Navbar = ({ toggle }) => {
                                 spy={true}
                                 exact='true'
                                 offset={-80}
-                            >Customers</NavLinks>
+                            >לקוחות מרוצים</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="services"
+                            <NavLinks to="about"
                                 smooth={true}
                                 duration={500}
                                 spy={true}
                                 exact='true'
                                 offset={-80}
-                            >Services</NavLinks>
+
+                            >עלינו</NavLinks>
                         </NavItem>
-                        
+
                     </NavMenu>
                 </NavbarContainer>
             </Nav>
