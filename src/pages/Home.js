@@ -3,7 +3,7 @@ import SideBar from '../components/Sidebar/SideBar'
 import Navbar from '../components/Navbar/Navbar'
 import Header from '../components/Header/Header'
 import InfoSection from '../components/InfoSection/InfoSection'
-import { homeObjOne, homeObjTwo } from '../components/InfoSection/Data'
+import { homeObjOne } from '../components/InfoSection/Data'
 import Services from '../components/Services/Services'
 import Footer from '../components/Footer/Footer'
 import Recommendation from '../components/Recommendation/Recommendation'
@@ -20,7 +20,6 @@ const Home = () => {
             <Header />
             <InfoSection {...homeObjOne} />
             <Recommendation/>
-            {/* <InfoSection {...homeObjTwo} /> */}
             <Services />
             <Footer />
         </>
