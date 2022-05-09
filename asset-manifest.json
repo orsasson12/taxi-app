@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.435a8365.css",
+    "main.js": "/static/js/main.bb7c414b.js",
+    "static/media/pexels-taro-5744341.mp4": "/static/media/pexels-taro-5744341.5e66ddb8ef8c9d52af00.mp4",
+    "static/media/56260-customer-service.gif": "/static/media/56260-customer-service.6280503456768244980d.gif",
+    "static/media/animation_200_kz011hgi.gif": "/static/media/animation_200_kz011hgi.5e5d68cb4c623b124a3c.gif",
+    "static/media/taxiApplication.jpg": "/static/media/taxiApplication.aa86e415ce73b613df16.jpg",
+    "static/media/logo.jpeg": "/static/media/logo.af749efff1b6eb6e7963.jpeg",
+    "static/media/undraw_treasure_of-9-i.svg": "/static/media/undraw_treasure_of-9-i.df84744b8e2624cd8aac466426723261.svg",
+    "static/media/undraw_about_us_page_re_2jfm.svg": "/static/media/undraw_about_us_page_re_2jfm.0983c9425dc65207848b63b8079e1d6d.svg",
+    "index.html": "/index.html",
+    "main.435a8365.css.map": "/static/css/main.435a8365.css.map",
+    "main.bb7c414b.js.map": "/static/js/main.bb7c414b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.435a8365.css",
+    "static/js/main.bb7c414b.js"
+  ]
+}
