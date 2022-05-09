@@ -82,7 +82,7 @@ const singleRecommend = recommendations.filter((item,i) => item.id === number).m
 
   return (
     
-    <div className="recommendationContainer">
+    <div className="recommendationContainer" id="discover">
 <div className={`${`circular-sb`}`}>
 {singleRecommend}
 <div className="circle1"></div>
