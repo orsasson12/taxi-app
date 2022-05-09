@@ -6,13 +6,12 @@ import InfoSection from '../components/InfoSection/InfoSection'
 import { homeObjOne, homeObjTwo } from '../components/InfoSection/Data'
 import Services from '../components/Services/Services'
 import Footer from '../components/Footer/Footer'
+import Recommendation from '../components/Recommendation/Recommendation'
 const Home = () => {
-
     const [isOpen, setIsOpen] = useState(false)
 
     const toggle = () => {
         setIsOpen(!isOpen)
-
     }
     return (
         <>
@@ -20,7 +19,8 @@ const Home = () => {
             <Navbar toggle={toggle} />
             <Header />
             <InfoSection {...homeObjOne} />
-            <InfoSection {...homeObjTwo} />
+            <Recommendation/>
+            {/* <InfoSection {...homeObjTwo} /> */}
             <Services />
             <Footer />
         </>

@@ -11,7 +11,18 @@ import {
 } from "./FooterElements";
 import { Link as LinkS } from 'react-scroll'
 import { FaFacebook, FaInstagram, FaMapMarkerAlt, FaPhoneAlt, FaMailBulk } from 'react-icons/fa'
+import appLogo from '../../assets/images/taxiApplication.jpg'
 const Footer = () => {
+    const imgStyle = {
+        borderRadius:'27px',
+        width:'15%',
+        textAlign:'center'
+    }
+    const spanStyle ={
+        position:'relative',
+        bottom:'10px',
+        left:'10px'
+    }
     return (
         <Box>
             <FooterTitle>
@@ -56,22 +67,27 @@ const Footer = () => {
                         <Heading>Contact Us</Heading>
                         <FooterLink href="#" > <FaMapMarkerAlt style={{ marginRight: '5px' }} />
                             <span>ראשון לציון</span></FooterLink>
-                        <FooterLink href="tel:0524673370"> <FaPhoneAlt style={{ marginRight: '5px' }} />
-                            <span> 0524673370</span></FooterLink>
-                        <FooterLink href="mailto:orsasson72@gmail.com"> <FaMailBulk style={{ marginRight: '5px' }} />
-                            <span> taxi@gmail.com</span></FooterLink>
+                        <FooterLink href="tel:0544886780"> <FaPhoneAlt style={{ marginRight: '5px' }} />
+                            <span> 0544886780</span></FooterLink>
+                        <FooterLink href="mailto:Sknzysy797@gmail.com"> <FaMailBulk style={{ marginRight: '2px' }} />
+                            <span style={{fontSize:'1rem', marginLeft:'2.8px'}}> Sknzysy797@gmail.com</span></FooterLink>
 
                     </Column>
                     <Column>
                         <Heading>Social Media</Heading>
-                        <FooterLink href='https://www.facebook.com/'>
+                        <FooterLink href='https://www.facebook.com/Taxironshay12'>
 
                              <FaFacebook /> Facebook
 
                         </FooterLink>
-                        <FooterLink href='https://www.facebook.com/'>
+                        <FooterLink href='/'>
 
                             <FaInstagram /> Instagram
+
+                        </FooterLink>
+                        <FooterLink href='https://bit.ly/ronshay'>
+                           <img src={appLogo} alt='app' style={imgStyle} /> 
+                           <span style={spanStyle}>Taxi4you</span>
 
                         </FooterLink>
                     </Column>

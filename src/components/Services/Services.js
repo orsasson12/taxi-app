@@ -28,11 +28,9 @@ const Services = () => {
                         </span>
                         </ServicesP>
                 </ServicesCard>
-                <ServicesCard>
-                   
+                <ServicesCard >
                         <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ZZ5gpp.json" background="transparent" speed="1"  loop autoplay></lottie-player>
-                    
-                    <ServicesH2>application</ServicesH2>
+                    <ServicesH2 >application</ServicesH2>
                     <ServicesP>ממשק עבודה נוח וידידותי למשתמש עם מערכת ועם אפליקציה חדשנית אשר בכל הזמנה ניתן לראות מי הנהג המשובץ על הנסיעה כולל הפרטים שלו, המיקום שלו והמחיר עבור הנסיעה.
                         במקביל למערכת - מענה גם בקבוצת WhatsApp  הכוללת את כל מנהלי המשמרת.</ServicesP>
                 </ServicesCard>

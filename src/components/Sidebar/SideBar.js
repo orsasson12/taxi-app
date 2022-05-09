@@ -1,6 +1,7 @@
 import React from 'react'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink } from './SideBarElements'
 const SideBar = ({ toggle, isOpen }) => {
+
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
             <Icon onClick={toggle}>
@@ -9,7 +10,7 @@ const SideBar = ({ toggle, isOpen }) => {
             <SidebarWrapper>
                 <SidebarMenu>
                     <SidebarLink style={{marginBottom:'3rem'}} onClick={toggle} to="about">
-                       עלינו
+                       אודות
                     </SidebarLink>
                     <SidebarLink  onClick={toggle} to="services">
                         לקוחות מרוצים

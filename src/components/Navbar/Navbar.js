@@ -20,13 +20,12 @@ const Navbar = ({ toggle }) => {
     }
     useEffect(() => {
         window.addEventListener('scroll', changeNav)
-
     }, [])
     return (
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to="/" onClick={toggleHome}>{<img src={logo} alt='logo' style={{width:'2rem', borderRaduis:'6px', height:'2.5rem', marginRight:'1rem'}}/>}  רון שי </NavLogo>
+                    <NavLogo to="/" onClick={toggleHome}>{<img src={logo} alt='logo' style={{width:'2rem', borderRaduis:'6px', height:'2.5rem', marginRight:'1rem'}}/>}  רון שי הסעות </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
@@ -58,7 +57,7 @@ const Navbar = ({ toggle }) => {
                                 exact='true'
                                 offset={-80}
 
-                            >עלינו</NavLinks>
+                            >אודות</NavLinks>
                         </NavItem>
 
                     </NavMenu>

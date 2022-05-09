@@ -44,27 +44,24 @@ align-items:center;
 
 export const HeaderH1 = styled.h1`
 color:#fff;
-font-size:48px;
+font-size:3.1rem;
 text-align:center;
 
 @media screen and (max-width:768px){
-    font-size:40px;
+    font-size:2.8rem;
 }
 @media screen and (max-width:480px){
-    font-size:32px;
+    font-size:2.3rem;
 }
 `
 
 export const HeaderP = styled.p`
 margin-top:24px;
 color:#fff;
-font-size:24px;
+font-size:1.6rem;
 text-align:center;
 max-width:600px;
-@media screen and (max-width:768px){
-    font-size:24px;
-}
 @media screen and (max-width:480px){
-    font-size:18px;
+    font-size:1.2rem;
 }
 `

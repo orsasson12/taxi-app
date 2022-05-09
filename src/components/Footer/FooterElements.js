@@ -37,7 +37,7 @@ export const Container = styled.div`
 export const Column = styled.div`
   display: flex;
   flex-direction: column;
-  text-align: left;
+  text-align: center;
  
 `;
 
@@ -47,8 +47,10 @@ export const Row = styled.div`
                          minmax(185px, 1fr));
   grid-gap: 20px;
   padding-left:20%;
-justify-items:center;
+justify-items:start;
   @media (max-width: 1000px) {
+    padding:1rem;
+    justify-items:center;
     grid-template-columns: repeat(auto-fill, 
                            minmax(200px, 1fr));
   }
@@ -57,7 +59,7 @@ justify-items:center;
 export const FooterLink = styled.a`
   color: #fff;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 1.2rem;
   text-decoration: none;
    
   &:hover {
@@ -68,7 +70,7 @@ export const FooterLink = styled.a`
 `;
 
 export const Heading = styled.p`
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #fff;
   margin-bottom: 40px;
   font-weight: bold;
